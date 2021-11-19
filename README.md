@@ -4,6 +4,17 @@
 
 打开终端输入
 
+1. 使用 github
+``````
+git clone https://github.com/98wb/mac.git
+cd squirrel
+sh install.sh
+``````
+
+
+
+2. 使用 gitee
+
 ``````
 git clone https://gitee.com/wubi98/squirrel.git
 cd squirrel
