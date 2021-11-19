@@ -1,37 +1,25 @@
-# 重要提醒
+# 鼠须管98五笔
 
-Mac 下的「鼠须管」已经进行方案文件升级，引入 Lua 组件更好地取代 OpenCC 的部分功能：
+- 法一：假如您有 git 以及 gitee
 
-请下载「mac增量更新」包，进行配置更新。
-
-网速不好的朋友，到这里下「mac增量更新」：
-
-http://98wb.ys168.com/
-
-
-# MacOS 下的98五笔
-
-- 字体务必全部安装
-- 然后安装输入法软件
-
-就这么简单。
-
-# 高阶使用
-
-- [鼠须管98五笔版](https://wubi98.gitee.io/input%20method/2019/12/03/032.squirrel.html)
-
-
-# 我已经安装过鼠须管
-
-你已装过「鼠须管」的话，可以使用如下命令直接换成「98五笔专版」
+打开终端输入
 
 ``````
-sh -c "$(curl -fsSL https://gitee.com/wubi98/shell/raw/master/98wb.sh)"
+git clone https://gitee.com/wubi98/squirrel.git
+cd squirrel
+sh install.sh
 ``````
 
-# 删除自造词
+- 法二：假如您没有 git
+
+下载并解包，终端到 install.sh 所在目录
 
 ``````
-sh -c "$(curl -fsSL https://gitee.com/wubi98/shell/raw/master/98wubi.sh)"
+sh install.sh
 ``````
 
+- 法三：假如您啥也没有
+
+去 [98五笔资源库](http://98wb.ys168.com/) 下载「鼠须管程序.zip」
+
+解包，照图操作。
